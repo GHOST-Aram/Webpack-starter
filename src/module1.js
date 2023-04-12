@@ -1,26 +1,40 @@
 export default class User{
-    constructor(name, age){
-        this._setName(name)
-        this._setAge(age)
-    }
-    
-    _setName(name){
-        this.name = name
-    }
-    _setAge(age){
-        this.age = age
-    }
-    _getName(){
-        return this.name
-    }
-    _getAge(){
-        return this.age
-    }
-    sayName(){
-        console.log(`User's name is ${this._getName()}`)
+    #religion
+    #ocupation
+    constructor(){
+       let name, age
     }
 
-    printAge(){
-        console.log(`User's age is ${this._getAge()}`)
+    
+    getAge(){
+        return this.age
     }
+    getOccupation(){
+        return this.#ocupation
+    }
+    getName(){
+        return this.name
+    }
+    getReligion(){
+        return this.#religion
+    }
+    printAge(){
+        console.log(`User's age is ${this.getAge()}`)
+    }
+    sayName(){
+        console.log(`User's name is ${this.getName()}`)
+    }
+    setAge(age){
+        this.age = age
+    }
+    setOcupation(ocupation){
+        this.#ocupation = ocupation
+    }
+    setName(name){
+        this.name = name
+    }
+    setReligion(religion){
+        this.#religion = religion
+    }
+
 }

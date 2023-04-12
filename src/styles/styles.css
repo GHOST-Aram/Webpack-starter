@@ -4,10 +4,58 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-h1{
+.container{
+    width: 90%;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.gap-2{
+    gap: 0.5rem;
+}
+.bg-yellow{
+    background-color: black;
+}
+.py-4{
+    padding-block: 4rem;
+}
+.px-8{
+    padding-inline: 8rem;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.h-40vh{
+    height: 40vh;
+}
+.text-orange{
     color: orange;
-    font-size: 2rem;
+}
+.text-grey {
+    color: grey;
+}
+.w-half {
+    width: 50%;
+}
+.text-center {
     text-align: center;
-    padding-block: 1rem;
+}
+.text-start{
+    text-align: start;
+}
+.font-lg {
+    font-size: 2rem;
+}
+.m-auto{
     margin: auto;
+}
+.p-1{
+    padding: 1rem;
 }

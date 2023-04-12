@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpack_starter=self.webpackChunkwebpack_starter||[]).push([[161],{161:(e,s,a)=>{e.exports=a.p+"Laughing-Smiley.svg"}}]);
